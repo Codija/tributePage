@@ -1,0 +1,59 @@
+.heading
+    height: 90px
+    width: 100%
+    position: fixed
+    background-color: rgb(255, 255, 255)
+    z-index: 99
+
+.sect
+    min-height: 800px
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: 100% 90%
+    background-attachment: fixed
+
+.bg-img
+    background-image: url("../imgs/aaron-swartz.jpg")
+
+.subsection
+    font-size: 18px
+    min-height: 350px
+    padding: 25px
+    background-color: rgb(217, 179, 140)
+
+.sec-sub
+    background-color: rgb(255, 255, 255)
+    min-height: 400px
+
+.clearfix
+    &::after
+    display: block
+    content: ""
+    clear: both
+
+.aaron-image
+    float: right
+
+.aaron-trailer
+    width: 400px
+    height: 300px
+
+footer
+    height: 200px
+    background-color: rgb(89, 89, 89)
+    color: rgb(255, 255, 255)
+
+    .bot
+        position: relative
+        bottom: -150px
+        text-align: center
+
+@media(max-width: 992px)
+    .heading
+        h1
+            font-size: 25px
+
+    .sect
+        min-height: 700px
+        background-size: cover
+        background-size: 150% 100%
