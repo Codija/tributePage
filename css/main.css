@@ -5,7 +5,8 @@ body {
   width: 100%;
   position: fixed;
   background-color: #fff;
-  z-index: 99; }
+  z-index: 99;
+  text-align: center; }
 
 .sect {
   min-height: 850px;
