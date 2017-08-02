@@ -1,8 +1,10 @@
+$white-color: #fff
+
 .heading
     height: 90px
     width: 100%
     position: fixed
-    background-color: rgb(255, 255, 255)
+    background-color: $white-color
     z-index: 99
 
 .sect
@@ -22,17 +24,12 @@
     background-color: rgb(217, 179, 140)
 
 .sec-sub
-    background-color: rgb(255, 255, 255)
+    background-color: $white-color
     min-height: 400px
 
-.clearfix
-    &::after
-    display: block
-    content: ""
-    clear: both
-
 .aaron-image
-    float: right
+    margin: 0 auto
+    padding: 15px
 
 .aaron-trailer
     width: 400px
@@ -41,7 +38,7 @@
 footer
     height: 200px
     background-color: rgb(89, 89, 89)
-    color: rgb(255, 255, 255)
+    color: $white-color
 
     .bot
         position: relative

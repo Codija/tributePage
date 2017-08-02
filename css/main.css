@@ -2,7 +2,7 @@
   height: 90px;
   width: 100%;
   position: fixed;
-  background-color: white;
+  background-color: #fff;
   z-index: 99; }
 
 .sect {
@@ -22,16 +22,12 @@
   background-color: #d9b38c; }
 
 .sec-sub {
-  background-color: white;
+  background-color: #fff;
   min-height: 400px; }
 
-.clearfix {
-  display: block;
-  content: "";
-  clear: both; }
-
 .aaron-image {
-  float: right; }
+  margin: 0 auto;
+  padding: 15px; }
 
 .aaron-trailer {
   width: 400px;
@@ -40,7 +36,7 @@
 footer {
   height: 200px;
   background-color: #595959;
-  color: white; }
+  color: #fff; }
   footer .bot {
     position: relative;
     bottom: -150px;
