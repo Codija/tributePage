@@ -1,12 +1,14 @@
+body {
+  text-align: justify; }
+
 .heading {
-  height: 90px;
   width: 100%;
   position: fixed;
   background-color: #fff;
   z-index: 99; }
 
 .sect {
-  min-height: 800px;
+  min-height: 850px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 90%;
@@ -47,8 +49,14 @@ footer {
     font-size: 25px; }
 
   .sect {
-    min-height: 700px;
+    min-height: 900px;
     background-size: cover;
     background-size: 150% 100%; } }
+@media(min-width: 768px) {
+  .container {
+    width: 700px; } }
+@media(max-width: 320px) {
+  .heading h1 {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
